@@ -1,6 +1,6 @@
 # React, Capacitor Calculator App
 
-A cross platform native app supporting the web, android, iOS, Mac, windows, Linux all at once! Built with React, Typescript, Ionic Capacitor and electron.
+A cross platform calculator app supporting the web, android, iOS, Mac, windows, Linux all at once! Built with React, Typescript, Ionic Capacitor and electron.
 
 ## To run:
 
