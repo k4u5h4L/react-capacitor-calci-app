@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">react-capacitor</string>
+    <string name="title_activity_main">react-capacitor</string>
+    <string name="package_name">com.reacttest.com</string>
+    <string name="custom_url_scheme">com.reacttest.com</string>
+</resources>
