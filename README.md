@@ -37,3 +37,13 @@ yarn start
 ```
 
 Now check [localhost:3000](http://localhost:3000) to view the site.
+
+### On desktop:
+
+-   Since it uses electron, it can be run on any platform. Just run the below command to get the electron app running:
+
+```
+yarn run run:electron
+```
+
+Now you'll have a chromium instance running with your app!

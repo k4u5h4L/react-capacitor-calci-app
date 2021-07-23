@@ -1,57 +1,60 @@
 {
-  "name": "react-capacitor",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@capacitor-community/electron": "^3.0.2",
-    "@capacitor/android": "^3.1.2",
-    "@capacitor/core": "^3.1.2",
-    "@capacitor/ios": "^3.1.2",
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "@types/jest": "^26.0.15",
-    "@types/node": "^12.0.0",
-    "@types/react": "^17.0.0",
-    "@types/react-dom": "^17.0.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
-    "typescript": "^4.1.2",
-    "web-vitals": "^1.0.1"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "cap:sync": "cap sync",
-    "cap:run": "cap run",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "devDependencies": {
-    "@capacitor/cli": "^3.1.2",
-    "@typescript-eslint/eslint-plugin": "^4.28.4",
-    "@typescript-eslint/parser": "^4.28.4",
-    "eslint": "^7.31.0",
-    "eslint-plugin-react": "^7.24.0",
-    "prettier": "^2.3.2"
-  }
+    "name": "react-capacitor",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@capacitor-community/electron": "^3.0.2",
+        "@capacitor/android": "^3.1.2",
+        "@capacitor/core": "^3.1.2",
+        "@capacitor/ios": "^3.1.2",
+        "@testing-library/jest-dom": "^5.11.4",
+        "@testing-library/react": "^11.1.0",
+        "@testing-library/user-event": "^12.1.10",
+        "@types/jest": "^26.0.15",
+        "@types/node": "^12.0.0",
+        "@types/react": "^17.0.0",
+        "@types/react-dom": "^17.0.0",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "react-scripts": "4.0.3",
+        "typescript": "^4.1.2",
+        "web-vitals": "^1.0.1"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "cap:sync": "cap sync",
+        "cap:run": "cap run",
+        "run:android": "cap run android",
+        "run:ios": "cap run ios",
+        "run:electron": "cap open electron",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "@capacitor/cli": "^3.1.2",
+        "@typescript-eslint/eslint-plugin": "^4.28.4",
+        "@typescript-eslint/parser": "^4.28.4",
+        "eslint": "^7.31.0",
+        "eslint-plugin-react": "^7.24.0",
+        "prettier": "^2.3.2"
+    }
 }
